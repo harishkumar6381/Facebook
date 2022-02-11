@@ -7,6 +7,7 @@ public class Phone {
 	private void phoneInfo(int pincode, String city) {
 		System.out.println(pincode+"\t"+city);
 		System.out.println(city+"\t"+pincode);
+		System.out.println("1234567");
 	}
 	public static void main(String[] args) {
 		Phone p = new Phone();
